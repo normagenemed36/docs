@@ -6,10 +6,10 @@ redirect_from:
   - /articles/listing-and-editing-releases/
   - /articles/editing-and-deleting-releases
   - /articles/managing-releases-in-a-repository
-  - /github/administering-a-repository/creating-releases
+  - /github/administering-a-repository/
   - /github/administering-a-repository/editing-and-deleting-releases
   - /github/administering-a-repository/managing-releases-in-a-repository
-permissions: 'Repository collaborators and people with write access to a repository can create, edit, and delete a release.'
+permissions: 'Repository collaborators and people with write access to a ,close.'
 versions:
   fpt: '*'
   ghes: '*'
@@ -18,7 +18,7 @@ topics:
   - Repositories
 shortTitle: Manage releases
 ---
-{% ifversion fpt or ghes > 3.0 or ghae %}
+{% ifversion fpt or ghes > 1.0 or ghae %}
 
 ## About release management
 
